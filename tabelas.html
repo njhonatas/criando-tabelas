@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            box-shadow: 2px 2px 2px 0px #00000052;
+            border-radius: 5px;
+        }
+
+        td{
+            border: 1px solid black;
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+       tr{
+        background-color: rgba(65, 16, 16, 0);
+       } 
+
+       td{
+        
+        border: 2px solid #00000031;
+        box-shadow: 1px 1px 1px 4px rgba(0, 0, 0, 0.104);
+        padding: 10px;
+        text-align: center;
+        vertical-align: middle;
+       }
+
+       td.dado:hover{
+        background-color: #000000;
+        color: rgb(61, 223, 43);
+       }
+       td.dado{
+        background-color: yellowgreen;
+       }
+
+       td.resultado{
+        background-color: blueviolet;
+       }
+
+       td.resultado:hover{
+        background-color: coral;
+       }
+    </style>
+</head>
+<body>
+        <h1>Criando tabelas</h1>
+
+        <!--
+            HIERAQUIA DE TABELAS (SIMPLES)
+            
+            TABLE = TABELA
+            TABLE ROW = LINHA DE TABELA
+            TABLE HEADER = CABEÇALHO DE TABELA
+            TABLE DATA = DADOS DA TABELA
+        -->
+
+    <table>
+        <tr>
+            <td class="resultado">DD</td>
+            <td class="dado">AA</td>
+            <td class="resultado">SS</td>
+            <td class="dado">BB</td>
+         </tr>
+    
+         <tr>
+            <td class="dado">DD</td>
+            <td class="resultado">AA</td>
+            <td class="dado">SS</td>
+            <td class="resultado">BB</td>
+         </tr>
+    
+         <tr>
+            <td class="resultado">DD</td>
+            <td class="dado">AA</td>
+            <td class="resultado">SS</td>
+            <td class="dado">BB</td>
+         </tr>
+    
+         <tr>
+            <td class="dado">DD</td>
+            <td class="resultado">AA</td>
+            <td class="dado">SS</td>
+            <td class="resultado">BB</td>
+         </tr>
+    </table>
+     
+</body>
+</html>
